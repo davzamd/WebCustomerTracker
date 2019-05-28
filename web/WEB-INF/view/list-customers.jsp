@@ -14,31 +14,34 @@
 </head>
 <body>
 
-<main id="wrapper">
-    <header id="header">
+<main>
+    <header>
         <h2>CRM - Customer Relationship Manager</h2>
     </header>
     <section id="container">
 
         <article id="content">
-            <table>
-                <tr>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Email</th>
-                </tr>
-                <i:forEach var="customer" items="${customers}">
+            <section>
+                <button onclick="window.location.href='showFromForAdd'" class="add-button">Add Customer</button>
+            </section>
+            <section>
+                <table id="list">
                     <tr>
-                        <td>${customer.firstName}</td>
-                        <td>${customer.lastName}</td>
-                        <td>${customer.email}</td>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
                     </tr>
-                </i:forEach>
-
-            </table>
+                    <i:forEach var="customer" items="${customers}">
+                        <tr>
+                            <td>${customer.firstName}</td>
+                            <td>${customer.lastName}</td>
+                            <td>${customer.email}</td>
+                        </tr>
+                    </i:forEach>
+                </table>
+            </section>
         </article>
     </section>
-
 </main>
 </body>
 </html>

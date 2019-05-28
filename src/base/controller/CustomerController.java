@@ -1,7 +1,5 @@
 package base.controller;
 
-import base.dao.CustomerDAO;
-import base.dao.CustomerDAOImp;
 import base.entity.Customer;
 import base.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,13 +22,23 @@ public class CustomerController {
     }
 
     @GetMapping("/list")
-    public String listCustomer(Model theModel){
+    public String listCustomer(Model theModel) {
 
         List<Customer> customerList = customerService.getCustomers();
 
-        theModel.addAttribute("customers",customerList);
+        theModel.addAttribute("customers", customerList);
 
         return "list-customers";
+    }
+
+    @GetMapping("/showFromForAdd")
+    public String showFormForAdd(Model model) {
+
+        Customer customer = new Customer();
+
+        model.addAttribute("customer", customer);
+
+        return "customer-add-form";
     }
 
 }
