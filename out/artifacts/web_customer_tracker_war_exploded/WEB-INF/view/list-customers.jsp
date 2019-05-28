@@ -37,11 +37,16 @@
                         <i:url var="updateLink" value="/customer/showFromForUpdate">
                             <i:param name="customerId" value="${customer.id}"/>
                         </i:url>
+
+                        <i:url var="deleteLink" value="/customer/delete">
+                            <i:param name="customerId" value="${customer.id}"/>
+                        </i:url>
                         <tr>
                             <td>${customer.firstName}</td>
                             <td>${customer.lastName}</td>
                             <td>${customer.email}</td>
-                            <td><button onclick="window.location.href='${updateLink}'">Update</button></td>
+                            <td><button onclick="window.location.href='${updateLink}'">Update</button>
+                                <button onclick="if(!(confirm('Are you sure?'))) return false; else (window.location.href='${deleteLink}')">Delete</button></td>
                         </tr>
                     </i:forEach>
                 </table>

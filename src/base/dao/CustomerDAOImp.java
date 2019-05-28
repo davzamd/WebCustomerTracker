@@ -25,7 +25,7 @@ public class CustomerDAOImp implements CustomerDAO{
 
         Session session = sessionFactory.getCurrentSession();
 
-        Query<Customer> query = session.createQuery("FROM Customer order by lastName",Customer.class);
+       Query<Customer> query = session.createQuery("FROM Customer order by lastName",Customer.class);
 
         return query.getResultList();
     }
@@ -45,9 +45,14 @@ public class CustomerDAOImp implements CustomerDAO{
     }
 
     @Override
-    public void deleteCustomer(Customer customer) {
+    public void deleteCustomer(int id) {
+
         Session session = sessionFactory.getCurrentSession();
 
-        session.delete(customer);
+        Query query = session.createQuery("delete from Customer where id =:theCustomerId ");
+
+        query.setParameter("theCustomerId",id);
+
+        query.executeUpdate();
     }
 }
