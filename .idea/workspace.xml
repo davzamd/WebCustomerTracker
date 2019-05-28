@@ -7,18 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0b2b0f-4b55-4153-bca4-304e53aab062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-add-form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/classes/base/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/classes/base/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/classes/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/classes/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/view/list-customers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-customer-tracker/base/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-customer-tracker/base/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-customer-tracker/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-customer-tracker/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/list-customers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/dao/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/dao/CustomerDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/dao/CustomerDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/service/CustomerServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/service/CustomerServiceImp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,19 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-mvc-crud-demo-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/resources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+            <state relative-caret-position="-427">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -53,17 +38,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/list-customers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="139">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/base/controller/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+              <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#641#642#0" expanded="true" />
@@ -76,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-add-form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="143">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -104,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/base/service/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,13 +100,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/service/CustomerServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="435">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#431#432#0" expanded="true" />
                 <element signature="e#477#478#0" expanded="true" />
                 <element signature="e#193#194#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,12 +118,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/dao/CustomerDAOImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="405">
+              <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#524#525#0" expanded="true" />
                 <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/dao/CustomerDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,16 +175,16 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/base/entity/Customer.java" />
         <option value="$PROJECT_DIR$/src/base/entity/CustomerDAO.java" />
-        <option value="$PROJECT_DIR$/src/base/dao/CustomerDAO.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/spring-mvc-crud-demo-servlet.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/customer-add-form.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/list-customers.jsp" />
+        <option value="$PROJECT_DIR$/web/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/src/base/dao/CustomerDAO.java" />
         <option value="$PROJECT_DIR$/src/base/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/base/service/CustomerServiceImp.java" />
         <option value="$PROJECT_DIR$/src/base/dao/CustomerDAOImp.java" />
         <option value="$PROJECT_DIR$/src/base/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/list-customers.jsp" />
-        <option value="$PROJECT_DIR$/web/resources/css/style.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/customer-add-form.jsp" />
       </list>
     </option>
   </component>
@@ -410,12 +411,12 @@
       <updated>1558964455995</updated>
       <workItem from="1558964458032" duration="2578000" />
       <workItem from="1558984651326" duration="796000" />
-      <workItem from="1559030921683" duration="8340000" />
+      <workItem from="1559030921683" duration="9702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11714000" />
+    <option name="totallyTimeSpent" value="13076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -511,16 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/dao/CustomerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -545,10 +536,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/list-customers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-427">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/dao/CustomerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -557,66 +579,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/service/CustomerServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="435">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#431#432#0" expanded="true" />
             <element signature="e#477#478#0" expanded="true" />
             <element signature="e#193#194#0" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-add-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/dao/CustomerDAOImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="405">
+          <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#641#642#0" expanded="true" />
             <element signature="e#695#696#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/list-customers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-add-form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
         </state>
       </provider>
     </entry>
