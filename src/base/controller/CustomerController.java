@@ -5,12 +5,7 @@ import base.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.util.Comparator;
+import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Controller
@@ -38,6 +33,16 @@ public class CustomerController {
     public String showFormForAdd(Model model) {
 
         Customer customer = new Customer();
+
+        model.addAttribute("customer", customer);
+
+        return "customer-add-form";
+    }
+
+    @GetMapping("/showFromForUpdate")
+    public String showFormForUpdate(@RequestParam("customerId") int id, Model model) {
+
+        Customer customer = customerService.getCustomerById(id);
 
         model.addAttribute("customer", customer);
 

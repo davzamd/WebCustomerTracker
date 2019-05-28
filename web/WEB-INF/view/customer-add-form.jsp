@@ -14,10 +14,6 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/add-customer-style.css">
 </head>
 <body>
-<main>
-
-</main>
-
 
 <main>
 
@@ -28,6 +24,9 @@
         <header><h3>Save Customer</h3></header>
         <article id="content">
             <form:form action="saveCustomer" modelAttribute="customer" method="post">
+
+                <form:hidden path="id"/>
+
                 <table>
                     <tbody>
                         <tr>

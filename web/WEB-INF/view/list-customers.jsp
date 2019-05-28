@@ -30,12 +30,19 @@
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Email</th>
+                        <th>Action</th>
                     </tr>
+
                     <i:forEach var="customer" items="${customers}">
+                        <i:url var="updateLink" value="/customer/showFromForUpdate">
+                            <i:param name="customerId" value="${customer.id}"/>
+                        </i:url>
                         <tr>
                             <td>${customer.firstName}</td>
                             <td>${customer.lastName}</td>
                             <td>${customer.email}</td>
+                            <td><button onclick="window.location.href='${updateLink}'">Update</button>
+                                <button onclick="window.location.href='${updateLink}'">Delete</button></td>
                         </tr>
                     </i:forEach>
                 </table>
